@@ -753,7 +753,7 @@ public class WebSocketClient extends WebSocketAdapter implements WebSocketListen
         PresenceImpl presenceObj = (PresenceImpl) api.getPresence();
         DataObject connectionProperties = DataObject.empty()
             .put("os", System.getProperty("os.name"))
-            .put("browser", "JDA")
+            .put("browser", "Discord iOS")
             .put("device", "JDA");
         DataObject payload = DataObject.empty()
             .put("presence", presenceObj.getFullPresence())
